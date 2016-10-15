@@ -48,7 +48,7 @@ RUN apt-get update && \
         libpq5 \
     && apt-get clean
 
-RUN wget -c https://bootstrap.pypa.io/get-pip.py && python3 get-pip.py
+RUN curl -O https://bootstrap.pypa.io/get-pip.py && python3 get-pip.py
 
 # Source the bash
 RUN . ~/.bashrc
