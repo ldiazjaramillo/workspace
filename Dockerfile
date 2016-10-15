@@ -43,8 +43,6 @@ RUN apt-get update && \
         vim \
         nano \
         postgresql-client \
-        postgresql-server-9.4 \
-        postgresql-server-9.4-dev \
         python3-dev \
         libpq-dev \
         libpq5 \
